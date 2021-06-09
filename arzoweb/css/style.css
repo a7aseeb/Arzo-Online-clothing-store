@@ -1,9 +1,11 @@
 body{
 	font-size: 16px;
 	color: #fff;
-	background-color: #c9a036;
-	font-family: 'Merriweather', serif;	
+	background: url(bg2.jpg);
+	font-family: 'PT Sans', sans-serif;
 }
+
+/*Header*/
 
 #header-nav {
 	background-color: #000000;
@@ -22,7 +24,6 @@ body{
 .navbar-brand{
 	padding-top: 43px;
 }
-
 .navbar-brand h1{
 	font-family: letter-gothic-std, monospace;
 	font-style: normal;
@@ -68,6 +69,54 @@ body{
 
 }
 
+/*End of Header*/
+
+/*Footer*/
+
+.panel-footer{
+	background: #000000;
+	border-top: 0px;
+}
+
+#aboutusfooter > span > p{
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+hr{
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+#footerlinks > span > p{
+	margin-bottom: 5px;
+	font-size: 1.2em;
+}
+
+a#footerlinks {
+	text-decoration: none;
+	color: #686868;
+}
+
+a#footerlinks:hover, a#footerlinks:focus {
+	color: #c9a036;
+	transition: color .65s ease;
+}
+
+.container p#footerp{
+	text-transform: uppercase;
+}
+#iconfb{
+	margin: 3px 5px 0 0;
+}
+
+section#footerlinks.footerpt2{
+	margin-top: 10px;
+}
+
+/*End of Footer*/
+
+/*Main Content*/
 #collapsable-nav a{
 	font-size: 1.2em;
 }
@@ -107,9 +156,12 @@ body{
 }
 
 #acce{
+	margin-bottom: 20px;
 	margin-top: 20px;
 	padding: 0;
 }
+
+/*End of Main Content*/
 
 
 /******Larger Devices only******/
