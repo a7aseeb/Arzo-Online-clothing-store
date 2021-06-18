@@ -69,6 +69,9 @@ body{
 
 }
 
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	background-color: #c9a036;
+}
 /*End of Header*/
 
 /*Footer*/
@@ -110,8 +113,33 @@ a#footerlinks:hover, a#footerlinks:focus {
 	margin: 3px 5px 0 0;
 }
 
+#footerloc1 > span > p{
+	margin-bottom: 5px;
+	font-size: 1.2em;
+}
+
+a#footerloc1 {
+	text-decoration: none;
+	color: #686868;
+}
+
+a#footerloc1:hover, a#footerlinks:focus {
+	color: #c9a036;
+	transition: color .65s ease;
+}
+
+.container p#footerloc{
+	text-transform: uppercase;
+}
+
 section#footerlinks.footerpt2{
 	margin-top: 10px;
+}
+
+.copyright{
+	margin-top: 30px;
+	color: #686868;
+
 }
 /*End of Footer*/
 
@@ -278,8 +306,14 @@ section#footerlinks.footerpt2{
 
 
 /*Main Content*/
+
+.jumbotron{
+	margin-bottom: 0px;
+}
 #narrival{
-	height: 299px;
+	height: 100%;
+	width: 100%;
+	display: inline block;
 	box-shadow: 0 0 50px #000000;
 	border: 2px solid #000000;
 	border-radius: 0;
@@ -288,15 +322,15 @@ section#footerlinks.footerpt2{
 
 #sale{
 	width: 716px;
-	height: 297px;
+	height: 100%
 	box-shadow: 0 0 50px #000000;
 	border: 2px solid #000000;
 	border-radius: 0;
 }
 
 #lawn{
-	width: 716px;
-	height: 280px;
+	width: 100%;
+	height: 100%;
 	box-shadow: 0 0 50px #000000;
 	border: 2px solid #000000;
 	border-radius: 0;
@@ -337,8 +371,13 @@ section#footerlinks.footerpt2{
 }
 
 /*Main Content*/
+
+.jumbotron{
+	margin-bottom: 0px;
+}
 #narrival {
-	height: 189px;
+	height: 100%;
+	display: inline-block;
 	box-shadow: 0 0 50px #000000;
 	border: 2px solid #000000;
 	border-radius: 0;
@@ -346,7 +385,8 @@ section#footerlinks.footerpt2{
 
 #sale{
 	width: 716px;
-	height: 189px;
+	height: 100%;
+	display: inline-block;
 	box-shadow: 0 0 50px #000000;
 	border: 2px solid #000000;
 	border-radius: 0;
@@ -354,7 +394,8 @@ section#footerlinks.footerpt2{
 
 #lawn{
 	width: 716px;
-	height: 178px;
+	height: 100%;
+	display: inline-block;
 	box-shadow: 0 0 50px #000000;
 	border: 2px solid #000000;
 	border-radius: 0;
@@ -362,7 +403,8 @@ section#footerlinks.footerpt2{
 
 #winter{
 	width: 716px;
-	height: 189px;
+	height: 100%;
+	display: inline-block;
 	box-shadow: 0 0 50px #000000;
 	border: 2px solid #000000;
 	border-radius: 0;
@@ -370,11 +412,18 @@ section#footerlinks.footerpt2{
 
 #acce{
 	width: 716px;
-	height: 164px;
+	height: 100%;
+	display: inline-block;
 	box-shadow: 0 0 50px #000000;
 	border: 2px solid #000000;
 	border-radius: 0;
 }
 
+/**Footer**/
 
+#footerloc1{
+	width: 100%;
+	display: inline-block;
+	margin-top: 8px;
+}
 }
